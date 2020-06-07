@@ -8,7 +8,7 @@ import java.awt.event.ActionListener;
 public class MyWindow extends JFrame {
     public MyWindow(){
         setBounds(500,300,750,300);
-        setTitle("Последний урок");
+        setTitle("Последний урок GeekBrain");
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         JButton[] jbs = new JButton[10];
         setLayout(new BoxLayout(getContentPane(), BoxLayout.Y_AXIS));
